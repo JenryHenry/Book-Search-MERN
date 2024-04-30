@@ -3,7 +3,6 @@ type User {
     _id: ID
     username: String
     email: String
-    savedBooks: [Book]
 }
 
 type Book {
@@ -23,7 +22,7 @@ type Auth {
 }
 
   type Query {
-    user(username: String!): User
+    user(): User
 
   }
 
