@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const { GraphQLError } = require('graphql');
 
 // set token secret and expiration date
-const secret = process.env.SECRET;
+const secret = 'DJDIEJFEIJIQ93j3j39jjkd';
 const expiration = '2h';
 
 module.exports = {
